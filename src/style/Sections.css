@@ -1,0 +1,55 @@
+.section {
+  min-height: 100vh;
+  background-color: #0c001a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 120px 20px;
+  scroll-snap-align: start;
+}
+
+.section h1 {
+  font-size: 2.5rem;
+  color: #b26cff;
+  margin-bottom: 20px;
+}
+
+.section p {
+  max-width: 700px;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+/* Resume button */
+.resume-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #b26cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: white;
+  color: #0c001a;
+}
+
+/* Responsive sections */
+@media (max-width: 768px) {
+  .section {
+    padding: 100px 15px;
+  }
+
+  .section h1 {
+    font-size: 2rem;
+  }
+
+  .section p {
+    font-size: 0.95rem;
+  }
+}

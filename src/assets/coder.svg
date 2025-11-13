@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0c001a"/>
+
+  <!-- Floating Group -->
+  <g transform="translate(80,50)">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-5; 0,0" dur="3s" repeatCount="indefinite"/>
+      
+      <!-- Desk -->
+      <rect x="80" y="320" width="280" height="20" fill="#333"/>
+      <rect x="80" y="340" width="20" height="100" fill="#444"/>
+      <rect x="340" y="340" width="20" height="100" fill="#444"/>
+
+      <!-- Monitor -->
+      <rect x="120" y="180" width="200" height="140" rx="10" ry="10" fill="#222" stroke="#b26cff" stroke-width="2"/>
+      <rect x="140" y="200" width="160" height="20" rx="3" ry="3" fill="#b26cff" opacity="0.8">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="140" y="230" width="100" height="10" rx="2" ry="2" fill="#fff" opacity="0.5"/>
+      <rect x="140" y="250" width="130" height="10" rx="2" ry="2" fill="#fff" opacity="0.5"/>
+      <rect x="140" y="270" width="80" height="10" rx="2" ry="2" fill="#fff" opacity="0.5"/>
+
+      <!-- Laptop -->
+      <rect x="170" y="270" width="90" height="55" rx="4" ry="4" fill="#ddd"/>
+      <rect x="175" y="275" width="80" height="45" fill="#fff"/>
+      <rect x="170" y="325" width="90" height="6" fill="#ccc"/>
+
+      <!-- Person -->
+      <circle cx="215" cy="230" r="22" fill="#b26cff"/>
+      <rect x="200" y="250" width="30" height="35" rx="5" fill="#b26cff"/>
+      
+      <!-- Typing hands -->
+      <rect x="185" y="285" width="10" height="35" rx="3" fill="#b26cff">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 0,3; 0,0" dur="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="235" y="285" width="10" height="35" rx="3" fill="#b26cff">
+        <animateTransform attributeName="transform" type="translate"
+          values="0,3; 0,0; 0,3" dur="0.6s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Chair -->
+      <rect x="180" y="265" width="60" height="10" rx="5" fill="#6c3fa4"/>
+
+      <!-- Plant -->
+      <ellipse cx="350" cy="410" rx="25" ry="10" fill="#444"/>
+      <rect x="340" y="360" width="20" height="50" fill="#b26cff"/>
+      <path d="M350 360 Q340 330 350 320 Q360 330 350 360 Z" fill="#c493ff"/>
+      <path d="M355 360 Q365 330 375 340 Q365 355 355 360 Z" fill="#c493ff"/>
+    </g>
+  </g>
+</svg>
