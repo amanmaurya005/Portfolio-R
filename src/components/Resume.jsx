@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/Sections.css";
+// import './index.css'
+
 
 const Resume = () => {
   return (
@@ -9,7 +11,7 @@ const Resume = () => {
         Download my resume or explore my professional background.
       </p>
       <a
-        href="/resume.pdf"
+        href="/Aman_resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="resume-btn"

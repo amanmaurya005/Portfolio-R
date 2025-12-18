@@ -14,14 +14,14 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">A.M.</div>
+      <div className="logo">AmanMaurya</div>
 
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
-        <li onClick={() => scrollToSection("home")}>Home</li>
+        <li onClick={() => scrollToSection("hero")}>Home</li>
         <li onClick={() => scrollToSection("about")}>About</li>
         <li onClick={() => scrollToSection("projects")}>Projects</li>
         <li onClick={() => scrollToSection("resume")}>Resume</li>
-        <li onClick={() => scrollToSection("blogs")}>Blogs</li>
+        <li onClick={() => scrollToSection("contact")}>Contact</li>
       </ul>
 
       <div

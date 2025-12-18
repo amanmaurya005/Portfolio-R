@@ -1,0 +1,171 @@
+/* Contact Section */
+.contact-section {
+  padding: 80px 10%;
+  text-align: center;
+  /* background: #0c001a; */
+  color: white;
+  z-index: 10;
+  position: relative;
+}
+
+.contact-section h1 {
+  font-size: 2.5rem;
+  color: #b26cff;
+}
+
+.contact-section p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Wrapper */
+.contact-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Glass Card */
+.contact-card {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contact-card h2 {
+  margin-bottom: 20px;
+  color: #b26cff;
+}
+
+.contact-card p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  font-size: 1.6rem;
+  color: #b26cff;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+
+/* Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+  background: #15002c;
+  border: 1px solid #b26cff50;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 93%;
+  padding: 12px;
+  background: transparent;
+  border: 2px solid #b26cff50;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.input-group label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #b26cff;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+/* Floating label on typing */
+.input-group input:focus + label,
+.input-group input:valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:valid + label {
+  top: -10px;
+  left: 10px;
+  background: #0c001a;
+  padding: 0 5px;
+  font-size: 0.8rem;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #b26cff;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #8a42ff;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.email-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #b26cff;
+}

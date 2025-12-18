@@ -19,7 +19,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       {/* ✅ Particle Background */}
       <Particles
         id="tsparticles"
